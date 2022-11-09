@@ -1,0 +1,175 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/registration.feature:15",
+      "name": ": Login data -- @1.1 ",
+      "status": "failed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/registration.feature:3",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/registrationfeatures.py:8"
+          },
+          "name": "we navigate to the Flipkart url",
+          "result": {
+            "duration": 24.441589832305908,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "And",
+          "location": "features/registration.feature:4",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/registrationfeatures.py:13"
+          },
+          "name": "close the login window",
+          "result": {
+            "duration": 5.154405355453491,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/registration.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/registrationfeatures.py:18"
+          },
+          "name": "we hover over Login Button",
+          "result": {
+            "duration": 5.299542188644409,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/registration.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/registrationfeatures.py:24"
+          },
+          "name": "Click on SignUp Link",
+          "result": {
+            "duration": 5.084376335144043,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/registration.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/registrationfeatures.py:30"
+          },
+          "name": "we validate the new user text",
+          "result": {
+            "duration": 0.04746222496032715,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "features/registration.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "number",
+                "value": "6383929268"
+              }
+            ],
+            "location": "features/steps/registrationfeatures.py:35"
+          },
+          "name": "we type in the \"6383929268\" field",
+          "result": {
+            "duration": 60.16292595863342,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "features/registration.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/registrationfeatures.py:39"
+          },
+          "name": "Click on Continue button",
+          "result": {
+            "duration": 20.09442448616028,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/registration.feature:10",
+          "match": {
+            "arguments": [
+              {
+                "name": "password",
+                "value": "Nava@18898"
+              }
+            ],
+            "location": "features/steps/registrationfeatures.py:43"
+          },
+          "name": "we type in \"Nava@18898\" field",
+          "result": {
+            "duration": 50.08427119255066,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"C:\\Users\\navan\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\model.py\", line 1329, in run",
+              "    match.run(runner.context)",
+              "  File \"C:\\Users\\navan\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\matchers.py\", line 98, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"features\\steps\\registrationfeatures.py\", line 45, in step_impl",
+              "    context.reg.enterpass(password)",
+              "  File \"C:\\Users\\navan\\PycharmProjects\\Sprint2\\features\\pageobjects\\loginpage.py\", line 42, in enterpass",
+              "    self.TypeEditBox(\"password_XPATH\",password)",
+              "  File \"C:\\Users\\navan\\PycharmProjects\\Sprint2\\features\\pageobjects\\Base.py\", line 32, in TypeEditBox",
+              "    self.driver.find_element_by_xpath(configreader.ConfigReader(\"locators\", locator)).click()",
+              "  File \"C:\\Users\\navan\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 394, in find_element_by_xpath",
+              "    return self.find_element(by=By.XPATH, value=xpath)",
+              "  File \"C:\\Users\\navan\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 976, in find_element",
+              "    return self.execute(Command.FIND_ELEMENT, {",
+              "  File \"C:\\Users\\navan\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute",
+              "    self.error_handler.check_response(response)",
+              "  File \"C:\\Users\\navan\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response",
+              "    raise exception_class(message, screen, stacktrace)",
+              "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/input\"}",
+              "  (Session info: chrome=107.0.5304.88)",
+              "",
+              "",
+              "Captured stdout:"
+            ],
+            "status": "failed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "features/registration.feature:11",
+          "name": "we click on the login button",
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/registration.feature:1",
+  "name": "Flipkart Registration",
+  "status": "failed",
+  "tags": []
+}
+]
