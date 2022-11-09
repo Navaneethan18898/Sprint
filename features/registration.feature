@@ -12,4 +12,4 @@ Feature: Flipkart Registration
 
     Examples:
       | number | password |
-      | 9894366233 | Nava@18898 |
+      | 8190833233 | Nava@18898 |
