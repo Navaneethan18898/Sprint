@@ -1,0 +1,7 @@
+2022-11-10 12:27:36,405 - registrationfeatures.py:[16] - [INFO] - Flipkart home page Navigated
+2022-11-10 12:27:41,614 - registrationfeatures.py:[22] - [INFO] - Closed the login window
+2022-11-10 12:27:46,898 - registrationfeatures.py:[28] - [INFO] - hovered over Login button
+2022-11-10 12:27:51,980 - registrationfeatures.py:[35] - [INFO] - Clicked on Signup
+2022-11-10 12:27:52,012 - registrationfeatures.py:[41] - [INFO] - Validated to new user
+2022-11-10 12:28:52,199 - registrationfeatures.py:[47] - [INFO] - Enter the number
+2022-11-10 12:29:02,274 - registrationfeatures.py:[53] - [INFO] - Clicked on Continue button

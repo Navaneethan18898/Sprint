@@ -1,10 +1,13 @@
 import time
 
+
 from selenium import webdriver
 from features.pageobjects.Base import BaseSettingsPage
 from Utilities.configreader import ConfigReader
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
+
+
 
 class flipkart(BaseSettingsPage):
     def __init__(self,driver):
@@ -37,6 +40,7 @@ class flipkart(BaseSettingsPage):
     def continuebutton(self):
         self.ClickButton("continuebutton_XPATH")
         time.sleep(10)
+
 
     def enterpass(self,password):
         self.TypeEditBox("password_XPATH",password)
